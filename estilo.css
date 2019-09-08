@@ -1,0 +1,15 @@
+#btnElevador, #btnPisos, #btnCapacidad {
+    width: 50%;
+    border-radius: 2%;
+    font-family: 'Gill Sans';
+}
+
+#btnAbrir, #btnCerrar {
+    width: 20%;
+    border-radius: 2%;
+    font-family: 'Gill Sans';
+}
+
+#el {
+    width: 50%;
+}
