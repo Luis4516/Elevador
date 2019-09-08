@@ -10,6 +10,26 @@ class Main {
             console.log(e1.movPiso());
            
         });
+
+        let btnPisos = document.querySelector("#btnPisos");
+        btnPisos.addEventListener('click', () => {
+            console.log(e1.modPisos());
+        });
+
+        let btnCapacidad = document.querySelector("#btnCapacidad");
+        btnCapacidad.addEventListener('click', () => {
+            console.log(e1.modCap());
+        });
+
+        let btnAbrir = document.querySelector("#btnAbrir");
+        btnAbrir.addEventListener('click', () => {
+            console.log(e1.abrir());
+        });
+
+        let btnCerrar = document.querySelector("#btnCerrar");
+        btnCerrar.addEventListener('click', () => {
+            console.log(e1.cerrar());
+        });
     }
 }
 
